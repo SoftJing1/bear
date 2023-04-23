@@ -1,0 +1,6 @@
+[2023-03-03 01:40:03] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-03 01:40:08] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:9222/ws/ 时出现错误: dial tcp 127.0.0.1:9222: connect: connection refused 
+[2023-03-03 01:40:11] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:9222/ws/ 时出现错误: dial tcp 127.0.0.1:9222: connect: connection refused 
+[2023-03-03 01:40:14] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:9222/ws/ 时出现错误: dial tcp 127.0.0.1:9222: connect: connection refused 
+[2023-03-03 01:40:17] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:9222/ws/ 时出现错误: dial tcp 127.0.0.1:9222: connect: connection refused 
+[2023-03-03 01:53:29] [WARNING]: Protocol -> device lock is disable. http api may fail. 

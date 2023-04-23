@@ -88,7 +88,7 @@ class ClanBattle:
         formater = logging.Formatter(
             '[%(asctime)s] %(levelname)s: %(message)s')
         filehandler = logging.FileHandler(
-            os.path.join(glo_setting['dirname'], 'log', '公会战日志.log'),
+            os.path.join(glo_setting['dirname'], 'log', 'kk.log'),
             encoding='utf-8',
         )
         filehandler.setFormatter(formater)

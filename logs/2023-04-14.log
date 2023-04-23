@@ -1,0 +1,11 @@
+[2023-04-14 17:45:07] [WARNING]: Bot已离线: 服务端强制下线. 
+[2023-04-14 17:45:10] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-14 17:45:13] [WARNING]: 尝试重连... 
+[2023-04-14 17:45:14] [WARNING]: 快速重连失败: exchange_emp failed: 16 
+[2023-04-14 17:45:14] [WARNING]: 快速重连失败, 尝试普通登录. 这可能是因为其他端强行T下线导致的. 
+[2023-04-14 17:45:15] [WARNING]: 登录需要滑条验证码, 请选择验证方式:  
+[2023-04-14 17:45:15] [WARNING]: 1. 使用浏览器抓取滑条并登录 
+[2023-04-14 17:45:15] [WARNING]: 2. 使用手机QQ扫码验证 (需要手Q和gocq在同一网络下). 
+[2023-04-14 17:45:15] [WARNING]: 请输入(1 - 2)： 
+[2023-04-14 17:45:15] [WARNING]: 未检测到输入终端，自动选择1. 
+[2023-04-14 17:45:15] [WARNING]: 请前往该地址验证 -> https://captcha.go-cqhttp.org/captcha?id=G3VXkbAv&style=simple&aid=16&uin=2361325545&sid=2332649022775959723&cap_cd=EZCxId1yb83Y8_Bs7sn4YGcA7raQv4Q1JSsdVjoQlyVuOsKP8JTlXA**&clientype=1&apptype=2 <- 或输入手动抓取的 ticket：（Enter 提交） 

@@ -1,0 +1,16 @@
+[2023-04-12 17:34:20] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 529888 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1()
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:335 +0x65
+panic({0xa7e9c0, 0xc00002a3a8})
+	runtime/panic.go:884 +0x212
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0xc0004082d0?, 0x49?, {0xc0004082d0, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/multimsg.go:108 +0x9c5
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0xc0004ccf00)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:346 +0x1c7
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:332 +0x4cd
+ 
+[2023-04-12 17:34:20] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1681292060.dump 请连同日志提交给开发者处理 

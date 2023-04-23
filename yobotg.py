@@ -101,7 +101,7 @@ def main():
                       bot_api=cqbot._api,
                       )
     host = bot.glo_setting.get("host", "0.0.0.0")
-    port = bot.glo_setting.get("port", 8554)
+    port = bot.glo_setting.get("port", 9222)
 
     @cqbot.on_message
     async def handle_msg(context):
